@@ -26,11 +26,11 @@ export default function Geordi() {
         <link href="https://fonts.googleapis.com/css?family=Rambla:700i" rel="stylesheet" />
         <meta
           name="go-import"
-          content="gopkg.in/yaml.v2 git https://github.com/silverlyra/geordi.get"
+          content="lyra.codes/geordi git https://github.com/silverlyra/geordi.git"
         />
         <meta
           name="go-source"
-          content="gopkg.in/yaml.v2 _ https://github.com/silverlyra/geordi/tree/master{/dir} https://github.com/silverlyra/geordi/blob/master{/dir}/{file}#L{line}"
+          content="lyra.codes/geordi _ https://github.com/silverlyra/geordi/tree/master{/dir} https://github.com/silverlyra/geordi/blob/master{/dir}/{file}#L{line}"
         />
       </Helmet>
       <Fonts families={['plex', 'rambla']} />
